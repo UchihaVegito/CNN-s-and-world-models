@@ -1,8 +1,8 @@
 # World-Model Ladder
 
-A 5-day learning project by **Rudraksh Singh Chauhan**: climbing from a CNN classifier to a
+A project by me climbing from a CNN classifier to a
 small world model (VAE + GRU dynamics on Pendulum-v1 pixels), ending in one measured
-experiment. It's a reproduction-style learning project based on Ha & Schmidhuber,
+experiment. It's a reproduction style project based on Ha & Schmidhuber,
 "World Models" ([arXiv 1803.10122](https://arxiv.org/abs/1803.10122)). It makes no
 novelty claims.
 
@@ -23,7 +23,7 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt          # default torch wheel includes MPS
 ```
 
-## Setup: cloud GPU (CUDA). Day 3+
+## Setup: cloud GPU (CUDA).
 To be filled on Day 3 from `nvidia-smi` on the actual machine:
 ```bash
 git clone https://github.com/UchihaVegito/CNN-s-and-world-models.git && cd CNN-s-and-world-models
