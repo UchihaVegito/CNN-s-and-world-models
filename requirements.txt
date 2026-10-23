@@ -1,0 +1,8 @@
+# Training environment (.venv). Top-level packages only, exact versions.
+# torch/torchvision: install command differs per machine, see README.md.
+torch==2.14.1
+torchvision==0.29.1
+gymnasium[classic-control]==1.4.0
+pygame-ce==2.5.8
+numpy==2.4.6
+matplotlib==3.11.2

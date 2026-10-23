@@ -1,0 +1,3 @@
+# Visualization environment (.venv-viz), kept separate from training.
+# System deps first: brew install cairo pango pkg-config ffmpeg
+manim==0.22.0

@@ -1,0 +1,26 @@
+# Environments
+.venv/
+.venv-viz/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Secrets
+.env
+.env.*
+
+# Data, episodes, checkpoints (these live under $WM_DATA_DIR, never in git)
+data/
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.h5
+
+# Rendered video (Manim output goes to media/)
+media/
+*.mp4
+*.mov
+*.gif
